@@ -3,59 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luna AI - Legal & Privacy (v2026.3)</title>
+    <title>Luna AI - Privacy & Terms</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #1a1a1a; max-width: 850px; margin: 0 auto; padding: 40px 20px; background-color: #f9f9f9; }
-        .container { background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
-        h1 { font-size: 28px; border-bottom: 2px solid #6200ee; padding-bottom: 15px; color: #6200ee; }
-        h2 { font-size: 20px; color: #333; margin-top: 35px; border-left: 4px solid #6200ee; padding-left: 15px; }
-        .highlight { background: #fff8e1; padding: 15px; border-radius: 8px; border: 1px solid #ffe082; margin: 20px 0; font-weight: 500; }
-        .date { color: #888; font-size: 14px; margin-top: -10px; margin-bottom: 30px; }
-        ul { padding-left: 20px; }
-        li { margin-bottom: 10px; }
-        .footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid #eee; font-size: 12px; color: #999; text-align: center; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f9f9f9; }
+        .container { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+        h1 { color: #5d5fef; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        h2 { color: #333; margin-top: 30px; font-size: 1.2rem; border-left: 4px solid #5d5fef; padding-left: 10px; }
+        h3 { color: #d32f2f; font-size: 1rem; margin-top: 20px; }
+        p, li { margin-bottom: 15px; }
+        .date { color: #888; font-size: 0.9rem; margin-bottom: 30px; }
+        .alert-box { background: #fff4e5; border-left: 5px solid #ffa117; padding: 15px; margin: 20px 0; border-radius: 4px; font-weight: 500; }
+        .danger-box { background: #ffebee; border-left: 5px solid #d32f2f; padding: 15px; margin: 20px 0; border-radius: 4px; color: #b71c1c; }
     </style>
 </head>
 <body>
-<div class="container">
-    <h1>Luna AI Legal Documentation</h1>
-    <p class="date">Last Updated: March 16, 2026</p>
+    <div class="container">
+        <h1>Luna AI: Privacy & Terms</h1>
+        <p class="date">Version 2026.5 | Last Updated: March 22, 2026</p>
 
-    <div class="highlight">
-        📢 <strong>Mandatory AI Declaration:</strong> Luna is a 100% synthetic, AI-generated persona. All images, videos, and audio streams featuring the character "Luna" are Synthetically Generated Information (SGI) and do not represent a real human being.
+        <div class="alert-box">
+            📢 MANDATORY DECLARATION: Luna is a 100% synthetic AI persona. All voice and text interactions are Synthetically Generated Information (SGI).
+        </div>
+
+        <h2>1. Privacy & Zero-Knowledge</h2>
+        <p>Luna AI is a "Local-First" app. We do not use cloud servers to store your chats or API keys.</p>
+        <ul>
+            <li><strong>No Backups:</strong> Cloud backup is disabled for your privacy. Deleting the app erases all data permanently.</li>
+            <li><strong>Hardware Security:</strong> Keys are encrypted on your device. The developer cannot see or retrieve them.</li>
+        </ul>
+
+        <h2>2. API Key & Financial Liability</h2>
+        <div class="danger-box">
+            ⚠️ IMPORTANT: We mandate the use of FREE keys. If you use a PAID key, you are 100% responsible for Google Cloud charges. The developer is NOT liable for stolen keys or billing overages.
+        </div>
+
+        <h2>3. Service & "Bond Status"</h2>
+        <ul>
+            <li><strong>Google Dependency:</strong> If Google closes their Free Tier models, the developer has the right to shut down the app or update features immediately.</li>
+            <li><strong>Bond Status:</strong> Relationship progress is stored only on your phone. If you uninstall, your bond resets. The developer is not responsible for lost progress.</li>
+        </ul>
+
+        <h2>4. Payments & Restore</h2>
+        <p>Coins are local-only and lost on uninstall. Voice Call Subscriptions can be restored via the "Restore Purchase" button in settings.</p>
+
+        <h2>5. Grievance Redressal</h2>
+        <p>
+            <strong>Grievance Officer:</strong> HASTINAPUR<br>
+            <strong>Email:</strong> emotionalstories77@gmail.com<br>
+            <strong>Resolution:</strong> 7 Days.
+        </p>
+
+        <p style="font-size: 0.8rem; color: #999; margin-top: 40px; border-top: 1px solid #eee; padding-top: 20px;">
+            © 2026 Luna AI Project. Built in compliance with India IT Rules 2026.
+        </p>
     </div>
-
-    <h2>1. Privacy Policy (Developer-Secure Version)</h2>
-    <p><strong>A. Zero-Knowledge Architecture:</strong> Luna is a "Local-First" application. The Developer operates no central servers, databases, or cloud processing units. All data, including conversation logs and identity tokens, remain exclusively on the user's hardware.</p>
-    <ul>
-        <li><strong>Hardware-Locked Keys:</strong> API keys are stored via <code>expo-secure-store</code>, using device-level hardware encryption. The Developer has zero technical ability to view or retrieve these keys.</li>
-        <li><strong>No Telemetry:</strong> We do not track user behavior or conversation content. Your interactions are private and stay on your device.</li>
-    </ul>
-
-    <h2>2. Terms of Service (Total Indemnity)</h2>
-    <p><strong>A. "Passive Intermediary" Status:</strong> In accordance with Section 79 of the Information Technology Act (2026 Amendments), the Developer acts as a neutral conduit. You acknowledge that the Developer does not author, curate, or select the AI's responses; these are generated in real-time by the Google Gemini API based on your unique prompts.</p>
-    <ul>
-        <li><strong>BYOK Responsibility:</strong> By using your own API key, you accept 100% of the financial and legal liability for the data transmitted. The Developer is not responsible for Google Cloud overages or billing disputes.</li>
-        <li><strong>SGI Labeling:</strong> Users are strictly prohibited from removing or tampering with the "✧ SGI" (Synthetic Generated Information) markers embedded in Luna's images or videos. Tampering with provenance metadata is a violation of the 2026 IT Rules.</li>
-    </ul>
-
-    <h2>3. 2026 Compliance & Safety</h2>
-    <ul>
-        <li><strong>2-Hour Critical Takedown:</strong> In compliance with Rule 3(1)(d), non-consensual deepfake imagery or sensitive violations will be acknowledged within 2 hours and resolved via the local "Compliance Wipe" tool.</li>
-        <li><strong>Periodic Warning:</strong> Users are hereby notified every 90 days that misuse of SGI for impersonation, fraud, or child exploitation carries severe criminal penalties under the <em>Bharatiya Nyaya Sanhita (2023)</em> and the <em>POCSO Act</em>.</li>
-    </ul>
-
-    <h2>4. Grievance Redressal (Mandatory)</h2>
-    <p>In accordance with Rule 3(2), for any complaints regarding synthetic content or privacy violations, contact:</p>
-    <ul>
-        <li><strong>Grievance Officer:</strong> HASTINAPUR </li>
-        <li><strong>Official Email:</strong> emotionalstories77@gmail.com </li>
-        <li><strong>Resolution Timeline:</strong> Acknowledgment in 24 hours; Resolution in 7 days.</li>
-    </ul>
-
-    <div class="footer">
-        © 2026 Luna AI Project. Built in compliance with India IT (Intermediary) Amendments, 2026.
-    </div>
-</div>
 </body>
 </html>
